@@ -1,0 +1,176 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(6, 6, 31);
+}
+
+ .navbar {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header .banner {
+    width: 75%;
+    margin: 100px auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color: greenyellow;
+    font-size: 24px;
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar .links>li {
+    padding: 0 10px;
+    color: red;
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner .banner-content .heading {
+    color: aqua;
+    font-size: 48px;
+}
+
+.banner .banner-content .banner-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.banner .banner-btn {
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.banner .banner-img img {
+    width: 500px;
+    height: 250;
+}
+.information .information-heading {
+     color: pink;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.information .information-images {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.information .information-images .img-container {
+    width: 150px;
+}
+
+.information .information-images .img-container .img {
+    height: 150px;
+    width: 150px;
+}
+
+.information .information-images .img-container .info-text {
+    color: black
+    font-size: 18px;
+    text-align: center;
+}
+.bodyy{background-color: gray;}
+.quote {
+    background-color: crimson;
+    padding: 100px 0;
+}
+
+.quote .quote-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.quote .quote-content .quote-lines {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote .quote-content .author {
+    text-align: right;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.sign-up {
+    padding: 100px 0;
+}
+
+.sign-up .sign-up-card {
+    background-color: aquamarine;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.sign-up-card .sign-up-content {
+    flex: 0 0 75%;
+    padding: 50px 100px;
+}
+
+.sign-up-content .main-text {
+    color: darkmagenta;
+    font-size: 24px;
+    margin: 0;
+}
+
+.sign-up-content .sub-text {
+    color: black;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.sign-up-card .sign-up-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-card .sign-up-btn .btn {
+    background-color: limegreen;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: 2px white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.footer {
+    background-color: purple;
+    padding: 22px;
+}
+
+.footer .footer-text {
+    color: lightpink;
+    font-size: 18px;
+    text-align: center;
+
